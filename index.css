@@ -1,0 +1,83 @@
+input[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 20, 20);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+h1{
+    margin: 24px 35px 30px 420px;
+    color: rgb(0, 47, 255);
+}
+.row {
+    width: 100%;
+}
+
+.button {
+    background-color: rgb(20, 255, 27); 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 24px 35px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.del-button {
+    background-color: rgb(199, 51, 25); 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 22px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.edit-button {
+    background-color: rgb(25, 179, 30); 
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#check-item {
+    background-color: rgb(253, 114, 0);
+    padding: 17px;
+    margin: 4px 28px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, tr, td {
+    width: 420px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgb(41, 19, 238);
+}
+
+#operation-table {
+    text-align: ce;
+}
